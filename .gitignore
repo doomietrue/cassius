@@ -5,7 +5,6 @@
 # Logs
 logs
 *.log
-npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
@@ -68,7 +67,6 @@ typings/
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
 
@@ -127,3 +125,5 @@ fabric.properties
 
 # End of https://www.gitignore.io/api/node,webstorm
 !/packages/
+.DS_Store
+packages/.DS_Store
