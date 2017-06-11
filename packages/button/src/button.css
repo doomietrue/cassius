@@ -1,0 +1,33 @@
+.button {
+    display: inline-block;
+    height: 40px;
+    margin: 15px 0;
+    padding: 0 19px;
+    font: bold 14px Arial;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.button:not(:disabled):hover {
+    background: linear-gradient(to bottom, #FFDB4D, #F98706);
+}
+
+.button:disabled {
+    opacity: .5;
+    cursor: default;
+}
+
+.primaryButton {
+    composes: button;
+    color: #441F00 !important;
+    background: #fc0;
+    background: linear-gradient(to bottom, #fc0, #F98706);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+    border-top: solid 1px rgba(255, 255, 255, 0.6);
+}
